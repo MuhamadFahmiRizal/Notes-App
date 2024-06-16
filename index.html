@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400..700&display=swap" 
+        rel="stylesheet">
+  </head>
+  <body>
+    <header-app>Notes App</header-app>
+
+    <main>
+    <div class="container">
+
+        <card-form></card-form>
+
+        <div class="outer">
+        <div class="cardhead">
+        <h2>Notes Tidak Tersimpan</h2>
+        </div>
+        </div>
+        <div class="cardlist">
+        <div id="noteListContainer" class="note-list-container">
+          <div class="placeholder query-waiting">
+            Waiting for search keyword
+          </div>
+          <div class="placeholder search-loading"></div>
+          <card-list></card-list>
+        </div>
+      </div>
+        <div class="outer">
+        <div class="cardhead">
+        <h2>Notes Tersimpan</h2>
+        </div>
+        </div>
+        <div class="cardlist">
+        <div id="noteArchivedListContainer" class="note-list-container">
+          <archived-list></archived-list>
+        </div>
+        </div>
+    </div>
+        </main>
+    <footer-app>&#169; 2024, All Right reserved. Created by Muhamad Fahmi Rizal</footer-app>
+  </body>
+</html>
